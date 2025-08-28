@@ -1,5 +1,5 @@
 ---
-import Welcome from '../components/Welcome.astro';
+import '../assets/global.css';
 import Layout from '../layouts/Layout.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
@@ -7,5 +7,16 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-	<Welcome />
+	<div class="text-center my-10">
+		<h1 class="text-xl">AS205378</h1>
+
+		<div class="footer mt-5">
+			<a href="https://bgp.he.net/AS205378" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">BGP.he.net</a>
+			<span> | </span>
+			<a href="https://bgp.tools/as/205378" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">BGP.tools</a>
+			<span> | </span>
+			<a href="https://www.peeringdb.com/net/40084" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">PeeringDB</a>
+
+		</div>
+	</div>
 </Layout>
